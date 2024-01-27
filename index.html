@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Oswald:wght@300&family=Roboto+Condensed&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="calculator">
+          <div class="calculatorSum">
+            <p id="calculatorSum"></p>
+          </div>
+
+          <div class="calculatorSigns">
+            <button onclick="display('/')">/</button>
+            <button onclick="display('*')">*</button>
+            <button onclick="display('+')">+</button>
+            <button onclick="display('-')">-</button>
+          </div>
+          <div class="calculatorNumbers">
+            <div class="numbers1">
+              <button onclick="display(7)">7</button>
+              <button onclick="display(8)">8</button>
+              <button onclick="display(9)">9</button>
+            </div>
+            <div class="numbers2">
+              <button onclick="display(4)">4</button>
+              <button onclick="display(5)">5</button>
+              <button onclick="display(6)">6</button>
+            </div>
+            <div class="numbers3">
+              <button onclick="display(1)">1</button>
+              <button onclick="display(2)">2</button>
+              <button onclick="display(3)">3</button>
+            </div>
+            <div class="numbers4">
+              <button onclick="display(0)" class="zero">0</button>
+              <button onclick="display('.')" class="point">.</button>
+              <button onclick="ac()" class="AC">AC</button>
+            </div>
+          </div>
+          <div class="equal">
+            <div class="equalSign">
+              <button onclick="equal()">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

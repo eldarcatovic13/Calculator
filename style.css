@@ -1,0 +1,144 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 1.7rem;
+    padding: 10px;
+    background-color: #e6e7eb;
+    width: 235px;
+    height: 320px;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+.calculator button{
+    width: 55px;
+    height: 55px;
+    font-size: 1.05rem;
+    cursor: pointer;
+}
+.calculator button:hover{
+    transform: scale(1.005);
+    transition: 200ms;
+}
+
+
+.calculatorSum{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #8a8c8c;
+    color: white;
+    height: 45px;
+    border: 0;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.calculatorSum p{
+    margin-right: 10px;
+}
+
+.calculatorSigns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.calculatorSigns button{
+    background-color: #e3e3e3;
+    border: 0.7px solid #393e46;
+    color: black;
+}
+
+
+.calculatorNumbers{
+    margin-right: 55px;
+}
+.numbers1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numbers1 button{
+    background-color: #e3e3e3;
+    border: 0.7px solid #393e46;
+    color: black;
+}
+
+
+.numbers2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numbers2 button{
+    background-color: #e3e3e3;
+    border: 0.7px solid #393e46;
+    color: black;
+}
+
+
+.numbers3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numbers3 button{
+    background-color: #e3e3e3;
+    border: 0.7px solid #393e46;
+    color: black;
+}
+
+
+.numbers4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zero{
+    background-color: #e3e3e3;
+    border: 0.7px solid #393e46;
+    color: black;
+}
+.point{
+    background-color: #e3e3e3;
+    border: 0.7px solid #393e46;
+    color: black;
+}
+.AC{
+    background-color: #ff0000;
+    border: 0.7px solid #606470;
+    color: white;
+}
+
+
+.equal{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -220px;
+}
+.equalSign button{
+    height: 220px;
+    background-color: #00bbf0;
+    border: 0.7px solid #393e46;
+    color: black;
+}
